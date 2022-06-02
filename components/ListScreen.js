@@ -26,7 +26,7 @@ const ListScreen = (props) => {
 
     return (
         <View style={styles.container}>
-            <BarChart
+            <LineChart
                 data={{
                     labels: labels,
                     datasets: [
